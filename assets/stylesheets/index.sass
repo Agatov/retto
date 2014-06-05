@@ -1,0 +1,79 @@
+@font-face
+  font-family: 'HelveticaNeueCyr-Light'
+  src: url('/fonts/HelveticaNeueCyr-Light.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+@font-face
+  font-family: 'HelveticaNeueCyr-Thin'
+  src: url('/fonts/HelveticaNeueCyr-Thin.otf') format("opentype")
+  font-weight: normal
+  font-style: normal
+
+body
+  padding: 0px
+  margin: 0px
+  font-family: 'HelveticaNeueCyr-Light', 'Helvetica', 'Arial', sans-serif
+  background: #fafafa
+  min-width: 1024px
+
+
+.wrapper
+  width: 960px
+  margin: 0px auto
+
+.clearfix
+  &:after
+    clear: both
+    content: "."
+    display: block
+    height: 0
+    clear: both
+    visibility: hidden
+
+.relative
+  position: relative
+
+.inheritance-height
+  height: 100%
+
+
+section
+  padding: 100px 0
+
+  &.striped
+    background: #D8E0EB
+
+  .title
+    text-align: center
+    font-size: 36px
+    font-family: "HelveticaNeueCyr-Thin"
+    margin-bottom: 50px
+    text-transform: uppercase
+
+
+
+
+
+@import url(http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,cyrillic)
+.price-rouble:after
+  font-family: "PT Sans"
+  content: " \20B7"
+
+#price
+  font-size: 128px
+  color: #323442
+  text-align: center
+  font-family: "HelveticaNeueCyr-Light"
+
+
+.price-about
+  font-family: "HelveticaNeueCyr-Thin"
+  padding-top: 30px
+  font-size: 24px
+  text-align: center
+
+
+.last-form
+  width: 100%
+  height: 100%
