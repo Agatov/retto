@@ -37,8 +37,6 @@ class Application < Sinatra::Base
   post '/orders.json' do
 
     message = "#{params[:order][:username]}. #{params[:order][:phone]}"
-    message += "\n"
-    message += params[:order][:email]
 
 
 
